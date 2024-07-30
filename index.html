@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing effect</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>I'm <span id="element"></span></h1>
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('#element', {
+          strings: ['Coding <img width="50px" src="15.webp" alt=""> ', 'Focus', 'Action'],
+          typeSpeed: 150,
+          backSpped: 150,
+          loop: true
+        });
+      </script>
+</body>
+</html>
