@@ -18,3 +18,10 @@ body {
 h1 {
     font-size: 80px;
 }
+
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 50px;
+    }
+}
